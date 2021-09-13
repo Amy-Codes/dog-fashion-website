@@ -1,0 +1,171 @@
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    height: calc(100vh - 67px);
+}
+
+.navigation-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation-ul li {
+    float: left;
+}
+
+.navigation-ul li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navigation-ul li a:hover {
+    background-color:orange;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo-homepage {
+    height: 33px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.logo-container {
+    background-color: orange;
+    border-radius: 5px;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.logo-text {
+    vertical-align: middle;
+}
+
+.homepage-row {
+    display: flex;
+    height: 100%;
+}
+
+.home-left-column {
+    flex-basis: 25%;
+}
+
+.home-middle-column {
+    flex-basis: 50%;
+} 
+
+.home-right-column {
+    flex-basis: 25%;
+}
+
+.welcome-panel {
+    padding: 20px;
+
+}
+
+.welcome-article-list a:link {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+.welcome-article-list a:visited {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+.welcome-article {
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.welcome-article:hover {
+    background-image: linear-gradient(#FF4500, #FAF0E6);
+    border-radius: 5px;
+}
+
+.welcome-article p {
+    margin: 0;
+    padding-left: 7px;
+}
+
+.welcome-panel h1 {
+    margin-top: 50px;
+}
+.welcome-article-top-row {
+    color: grey;
+}
+
+.welcome-article-middle-row {
+    color:black;
+}
+
+.welcome-article-bottom-row {
+    color: gray;
+}
+
+.middle-image-container {
+    position: relative;
+    margin: 0 7px;
+    background-color: red;
+    height: 100%;
+}
+
+.middle-homepage-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+}
+
+.right-image-container {
+    position: relative;
+    margin: 0 14px 14px 7px;
+    background-color: darkorange;
+    height: 50%;
+}
+
+.right-homepage-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+}
+
+.homepage-right-article {
+    position: relative;
+    margin: 0 14px 0 7px;
+    background-color:#008B8B;
+    height: calc(50% - 14px);
+    color: white;
+    text-align: center, justify;
+    font-size: 14px;
+}
+
+.homepage-right-article h3 {
+   padding: 0;
+   margin: 0;
+}
+
+.home-right-article-text {
+    padding: 35px;
+}
+
+.home-right-article-text-link {
+    cursor: pointer;
+    text-align:left;
+}
